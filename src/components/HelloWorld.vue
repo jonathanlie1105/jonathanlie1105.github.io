@@ -1,0 +1,44 @@
+<script setup lang="ts">
+import BarrierIcon from './icons/IconBarrier.vue'
+</script>
+
+<template>
+  <div class="greetings">
+    <h1 class="green">Hello! I'm Jonathan</h1>
+    <h2><BarrierIcon /> UNDER DEVELOPMENT <BarrierIcon /></h2>
+    <br />
+    <h3>In the meantime, please check out the summary about me.</h3>
+  </div>
+</template>
+
+<style scoped>
+h1 {
+  font-weight: 500;
+  font-size: 2.6rem;
+  position: relative;
+  top: -10px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  color: hsla(0, 100%, 71%, 1);
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+.greetings h1,
+.greetings h2,
+.greetings h3 {
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .greetings h1,
+  .greetings h2,
+  .greetings h3 {
+    text-align: left;
+  }
+}
+</style>
