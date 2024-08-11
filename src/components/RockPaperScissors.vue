@@ -148,7 +148,7 @@ provide('selectedIdx', selectedIdx)
     </div>
     <div class="container row">
       <Button type="danger" :disabled="false" @click="toggleStartGame"> Reset </Button>
-      <Button type="success" :disabled="false" @click="startBattle"> Bid </Button>
+      <Button type="success" :disabled="false" @click="startBattle"> Shoot </Button>
     </div>
   </div>
   <div v-if="isGameStart && isGameFinish" class="container column">
