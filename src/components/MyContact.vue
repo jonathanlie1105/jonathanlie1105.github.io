@@ -40,7 +40,7 @@ import IconVue from './icons/IconVue.vue'
     <div class="wrapper">
       <a target="_blank" href="https://www.linkedin.com/in/jonathanlie1105/"><IconLinkedIn /></a>
       <a target="_blank" href="https://github.com/jonathanlie1105"><IconGithub /></a>
-      <a target="_blank" href="mailto:joliekidd@gmail.com"><IconGmail /></a>
+      <a target="_blank" href="mailto:jonathanlie1105@gmail.com"><IconGmail /></a>
       <a target="_blank" href="https://wa.me/6282298721226"><IconWhatsapp /></a>
       <a target="_blank" href="https://www.facebook.com/jonathan.lie.54/"><IconFacebook /></a>
     </div>
