@@ -21,7 +21,7 @@ import IconVue from './icons/IconVue.vue'
   <div class="left">
     <h2 class="green">Tech stack I've used</h2>
     <div class="wrapper">
-      <a href="https://expo.dev/"><IconExpo /></a>
+      <a target="_blank" href="https://expo.dev/"><IconExpo /></a>
       <a target="_blank" href="https://graphql.org/"><IconGraphQL /></a>
       <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
         <IconJavascript />
