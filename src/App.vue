@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
+import MyContact from './components/MyContact.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -15,6 +16,8 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <MyContact />
 </template>
 
 <style scoped>

@@ -21,7 +21,7 @@ h1 {
 
 h2 {
   font-size: 1.4rem;
-  color: hsla(0, 100%, 71%, 1);
+  color: var(--vt-c-red);
 }
 
 h3 {
