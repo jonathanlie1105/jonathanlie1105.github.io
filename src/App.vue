@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import MyContact from './components/MyContact.vue'
+import RockPaperScissors from './components/RockPaperScissors.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
 
@@ -16,6 +17,10 @@ import TheWelcome from './components/TheWelcome.vue'
   <main>
     <TheWelcome />
   </main>
+
+  <footer>
+    <RockPaperScissors />
+  </footer>
 
   <MyContact />
 </template>
@@ -35,6 +40,14 @@ header {
     display: flex;
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
+  }
+
+  footer {
+    grid-area: c;
+    border: 0.06rem solid var(--color-border);
+    border-radius: 8px;
+    padding: 2rem 0;
+    margin: 2rem 0;
   }
 
   .logo {
