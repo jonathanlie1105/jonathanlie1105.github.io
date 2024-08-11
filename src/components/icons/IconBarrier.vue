@@ -6,8 +6,8 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
     viewBox="0 0 512 512"
     xml:space="preserve"
-    width="30"
-    height="30"
+    width="20"
+    height="20"
   >
     <g>
       <rect x="105.239" y="42.097" style="fill: #a9825a" width="45.514" height="102.838" />
