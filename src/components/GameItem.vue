@@ -37,6 +37,6 @@ const classObject = reactive({
   transition: 0.5s;
 }
 .selected {
-  border-color: var(--vt-c-yellow);
+  border-color: var(--color-highlight);
 }
 </style>

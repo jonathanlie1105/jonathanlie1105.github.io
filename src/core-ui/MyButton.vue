@@ -23,7 +23,7 @@ button {
   border: 1px solid var(--color-border);
   border-radius: 0.5rem;
   background-color: var(--color-background);
-  color: var(--vt-c-white);
+  color: var(--color-heading);
   cursor: pointer;
   font-weight: bold;
   transition-duration: 0.2s;
