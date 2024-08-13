@@ -4,7 +4,6 @@ import IconGithub from './icons/IconGithub.vue'
 import IconGmail from './icons/IconGmail.vue'
 import IconLinkedIn from './icons/IconLinkedIn.vue'
 import IconWhatsapp from './icons/IconWhatsapp.vue'
-
 import IconExpo from './icons/IconExpo.vue'
 import IconGraphQL from './icons/IconGraphQL.vue'
 import IconJavascript from './icons/IconJavascript.vue'
@@ -21,17 +20,17 @@ import IconVue from './icons/IconVue.vue'
   <div class="left">
     <h2 class="green">Tech stack I've used</h2>
     <div class="wrapper">
-      <a target="_blank" href="https://expo.dev/"><IconExpo /></a>
-      <a target="_blank" href="https://graphql.org/"><IconGraphQL /></a>
       <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
         <IconJavascript />
       </a>
-      <a target="_blank" href="https://nextjs.org/"><IconNext /></a>
-      <a target="_blank" href="https://www.postgresql.org/"><IconPostgreSQL /></a>
-      <a target="_blank" href="https://www.prisma.io/"><IconPrisma /></a>
-      <a target="_blank" href="https://react.dev/"><IconReact /></a>
-      <a target="_blank" href="https://tailwindcss.com/"><IconTailwind /></a>
       <a target="_blank" href="https://www.typescriptlang.org/"><IconTypescript /></a>
+      <a target="_blank" href="https://react.dev/"><IconReact /></a>
+      <a target="_blank" href="https://expo.dev/"><IconExpo /></a>
+      <a target="_blank" href="https://www.postgresql.org/"><IconPostgreSQL /></a>
+      <a target="_blank" href="https://graphql.org/"><IconGraphQL /></a>
+      <a target="_blank" href="https://www.prisma.io/"><IconPrisma /></a>
+      <a target="_blank" href="https://nextjs.org/"><IconNext /></a>
+      <a target="_blank" href="https://tailwindcss.com/"><IconTailwind /></a>
       <a target="_blank" href="https://vuejs.org/"><IconVue /></a>
     </div>
   </div>
