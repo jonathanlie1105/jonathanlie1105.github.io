@@ -1,5 +1,16 @@
 <script setup lang="ts">
 import BarrierIcon from './icons/IconBarrier.vue'
+
+import Button from '@/core-ui/MyButton.vue'
+import contacts from '@/constants/contacts'
+
+function onClickSeeCV() {
+  window.open(contacts.cv, '_blank')
+}
+
+function onClickContactMe() {
+  window.open(`${contacts.email}?subject=Consultation Request`)
+}
 </script>
 
 <template>
@@ -8,6 +19,11 @@ import BarrierIcon from './icons/IconBarrier.vue'
     <h2><BarrierIcon /> UNDER DEVELOPMENT <BarrierIcon /></h2>
     <br />
     <h3>In the meantime, please check out the summary about me.</h3>
+    <br />
+    <div class="btn-container">
+      <Button @click="onClickSeeCV" type="info">See My CV</Button>
+      <Button @click="onClickContactMe" type="warning">Get Consultation</Button>
+    </div>
   </div>
 </template>
 
@@ -34,11 +50,21 @@ h3 {
   text-align: center;
 }
 
+.btn-container {
+  display: flex;
+  place-content: center;
+  column-gap: calc(var(--section-gap) / 10);
+}
+
 @media (min-width: 1024px) {
   .greetings h1,
   .greetings h2,
   .greetings h3 {
     text-align: left;
+  }
+
+  .btn-container {
+    place-content: flex-start;
   }
 }
 </style>
