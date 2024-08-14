@@ -14,34 +14,39 @@ import IconReact from './icons/IconReact.vue'
 import IconTailwind from './icons/IconTailwind.vue'
 import IconTypescript from './icons/IconTypescript.vue'
 import IconVue from './icons/IconVue.vue'
+
+import contacts from '@/constants/contacts'
+import techStacks from '@/constants/techStacks'
+
+const { linkedIn, github, email, whatsApp, faceBook } = contacts
+const { javascript, typescript, react, expo, postgreSql, graphQl, prisma, nextJs, tailwind, vue } =
+  techStacks
 </script>
 
 <template>
   <div class="left">
     <h2 class="green">Tech stack I've used</h2>
     <div class="wrapper">
-      <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">
-        <IconJavascript />
-      </a>
-      <a target="_blank" href="https://www.typescriptlang.org/"><IconTypescript /></a>
-      <a target="_blank" href="https://react.dev/"><IconReact /></a>
-      <a target="_blank" href="https://expo.dev/"><IconExpo /></a>
-      <a target="_blank" href="https://www.postgresql.org/"><IconPostgreSQL /></a>
-      <a target="_blank" href="https://graphql.org/"><IconGraphQL /></a>
-      <a target="_blank" href="https://www.prisma.io/"><IconPrisma /></a>
-      <a target="_blank" href="https://nextjs.org/"><IconNext /></a>
-      <a target="_blank" href="https://tailwindcss.com/"><IconTailwind /></a>
-      <a target="_blank" href="https://vuejs.org/"><IconVue /></a>
+      <a target="_blank" :href="javascript"><IconJavascript /></a>
+      <a target="_blank" :href="typescript"><IconTypescript /></a>
+      <a target="_blank" :href="react"><IconReact /></a>
+      <a target="_blank" :href="expo"><IconExpo /></a>
+      <a target="_blank" :href="postgreSql"><IconPostgreSQL /></a>
+      <a target="_blank" :href="graphQl"><IconGraphQL /></a>
+      <a target="_blank" :href="prisma"><IconPrisma /></a>
+      <a target="_blank" :href="nextJs"><IconNext /></a>
+      <a target="_blank" :href="tailwind"><IconTailwind /></a>
+      <a target="_blank" :href="vue"><IconVue /></a>
     </div>
   </div>
   <div class="right">
     <h2 class="green">See my social media</h2>
     <div class="wrapper">
-      <a target="_blank" href="https://www.linkedin.com/in/jonathanlie1105/"><IconLinkedIn /></a>
-      <a target="_blank" href="https://github.com/jonathanlie1105"><IconGithub /></a>
-      <a target="_blank" href="mailto:jonathanlie1105@gmail.com"><IconGmail /></a>
-      <a target="_blank" href="https://wa.me/6282298721226"><IconWhatsapp /></a>
-      <a target="_blank" href="https://www.facebook.com/jonathan.lie.54/"><IconFacebook /></a>
+      <a target="_blank" :href="linkedIn"><IconLinkedIn /></a>
+      <a target="_blank" :href="github"><IconGithub /></a>
+      <a target="_blank" :href="email"><IconGmail /></a>
+      <a target="_blank" :href="whatsApp"><IconWhatsapp /></a>
+      <a target="_blank" :href="faceBook"><IconFacebook /></a>
     </div>
   </div>
 </template>
