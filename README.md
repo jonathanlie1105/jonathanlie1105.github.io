@@ -1,39 +1,33 @@
-# portofolio-jonathan
+# 🌐 Jonathan Lie — Personal Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Welcome to the source code of my personal website!  
+This portfolio highlights my experience as a **Software Engineer**, showcasing my background, projects, and technical skills.
 
-## Recommended IDE Setup
+## 👨‍💻 About Me
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Hi, I'm **Jonathan Lie**, a passionate **Software Engineer** with over 5 years of experience building full-stack applications using the **PERN stack** (PostgreSQL, Express.js, React, Node.js) with **TypeScript**.
 
-## Type Support for `.vue` Imports in TS
+Currently, I work full-time at [**KodeFox, Inc.**](https://kodefox.com/), where I focus on crafting clean, scalable, and secure software solutions.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+Beyond engineering, I have a deep interest in **Cybersecurity**. I hold a **Bachelor’s Degree in Computer Science** with a focus in cybersecurity, and earned a cybersecurity certification in 2020. Though I'm not currently in a cybersecurity role, I stay engaged with the field and its emerging technologies.
 
-## Customize configuration
+---
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🛠️ Tech Stack
 
-## Project Setup
+This site is built with:
 
-```sh
-pnpm install
-```
+- **React.js** (Frontend)
+- **TypeScript**
+- **HTML5 / CSS3**
+- **NextJS**
+- **Vite**
+- **Expo**
+- **Responsive Design** (Mobile-First)
 
-### Compile and Hot-Reload for Development
+---
 
-```sh
-pnpm dev
-```
+## 🚀 Live Website
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+Check it out here:  
+🔗 [https://jonathanlie1105.github.io/](https://jonathanlie1105.github.io/)
