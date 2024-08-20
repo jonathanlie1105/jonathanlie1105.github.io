@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
-import MyContact from './components/MyContact.vue'
+import MyContacts from './components/MyContacts.vue'
+import MyServices from './components/MyServices.vue'
 import RockPaperScissors from './components/RockPaperScissors.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -18,11 +19,13 @@ import TheWelcome from './components/TheWelcome.vue'
     <TheWelcome />
   </main>
 
+  <MyServices />
+
+  <MyContacts />
+
   <footer>
     <RockPaperScissors />
   </footer>
-
-  <MyContact />
 </template>
 
 <style scoped>
@@ -43,7 +46,7 @@ header {
   }
 
   footer {
-    grid-area: c;
+    grid-area: f;
     border: 0.06rem solid var(--color-border);
     border-radius: 8px;
     padding: 2rem 0;
