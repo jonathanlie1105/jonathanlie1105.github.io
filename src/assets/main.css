@@ -33,7 +33,8 @@ a,
     grid-template-areas:
       'a b'
       'c c'
-      'd e';
+      'd e'
+      'f f';
     padding: 0 2rem;
   }
 }

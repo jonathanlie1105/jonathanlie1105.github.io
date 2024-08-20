@@ -53,15 +53,15 @@ const { javascript, typescript, react, expo, postgreSql, graphQl, prisma, nextJs
 
 <style scoped>
 .left {
+  grid-area: d;
   display: flex;
   flex-direction: column;
-  grid-area: d;
   row-gap: calc(var(--section-gap) / 10);
 }
 .right {
+  grid-area: e;
   display: flex;
   flex-direction: column;
-  grid-area: e;
   row-gap: calc(var(--section-gap) / 10);
 }
 .wrapper {
