@@ -5,6 +5,7 @@ import IconGmail from './icons/IconGmail.vue'
 import IconLinkedIn from './icons/IconLinkedIn.vue'
 import IconWhatsapp from './icons/IconWhatsapp.vue'
 import IconExpo from './icons/IconExpo.vue'
+import IconFiverr from './icons/IconFiverr.vue'
 import IconGraphQL from './icons/IconGraphQL.vue'
 import IconJavascript from './icons/IconJavascript.vue'
 import IconNext from './icons/IconNext.vue'
@@ -18,7 +19,7 @@ import IconVue from './icons/IconVue.vue'
 import contacts from '@/constants/contacts'
 import techStacks from '@/constants/techStacks'
 
-const { linkedIn, github, email, whatsApp, faceBook } = contacts
+const { linkedIn, github, email, whatsApp, faceBook, fiverr } = contacts
 const { javascript, typescript, react, expo, postgreSql, graphQl, prisma, nextJs, tailwind, vue } =
   techStacks
 </script>
@@ -47,6 +48,7 @@ const { javascript, typescript, react, expo, postgreSql, graphQl, prisma, nextJs
       <a target="_blank" :href="email"><IconGmail /></a>
       <a target="_blank" :href="whatsApp"><IconWhatsapp /></a>
       <a target="_blank" :href="faceBook"><IconFacebook /></a>
+      <a target="_blank" :href="fiverr"><IconFiverr /></a>
     </div>
   </div>
 </template>
